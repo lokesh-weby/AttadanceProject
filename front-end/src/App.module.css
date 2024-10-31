@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    font-family: Orbitron;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+tr label{
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px 0px;
+    color: white;
+    user-select: none;
+}
+form{
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+}
+input[type="radio"]{
+    height: 30px;
+    width: 30px;
+}
+td{
+    /* background: linear-gradient(45deg,purple,black); */
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
