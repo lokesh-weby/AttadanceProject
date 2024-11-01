@@ -25,10 +25,8 @@ app.get('/', function (req, res) {
 
 app.post('/',function(req,res){
   console.log(req.body);
-  const sampleData =req.body
-  
+  const sampleData =req.body;
   updateSheet(sampleData);
-  
 })
 
 
